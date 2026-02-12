@@ -6,7 +6,7 @@ public class Caller : MonoBehaviour
 
     void Start()
     {
-        //print 'Hello Friend' on the console
+        //Print 'Hello Friend' on the console
         Debug.Log("Hello Friend");
         //Call the function OnCalled() in the file
         receiver.OnCalled();
